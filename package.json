@@ -4,8 +4,7 @@
   "description": "",
   "main": "axe-test.js",
   "scripts": {
-    "build": "grunt",
-    "test": "grunt jasmine"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -19,9 +18,5 @@
   "homepage": "https://github.com/brittmoni/brittmoni.github.io#readme",
   "devDependencies": {
     "axe-core": "^3.5.3"
-  },
-  "dependencies": {
-    "grunt": "^1.1.0",
-    "grunt-contrib-jasmine": "^2.1.0"
   }
 }
