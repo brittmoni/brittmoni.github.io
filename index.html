@@ -28,10 +28,23 @@ data-pega-resizetype ='stretch'
 data-pega-url ='https://s7iiwfqa.pegace.net/prweb/' ></div>
 
 <!-- ********************** End Pega content ********************** -->
+
+        <script src="node_modules/axe-core/axe.min.js">
+            axe
+	.run()
+	.then(results => {
+		if (results.violations.length) {
+			throw new Error('Accessibility issues found');
+		}
+	})
+	.catch(err => {
+		console.error('Something bad happened:', err.message);
+	});
+        </script>
     </div>
 
     <!-- <script src="axe-test.js"></script> -->
-    <script src="node_modules/axe-core/axe.min.js"></script>
+    <!-- <script src="node_modules/axe-core/axe.min.js"></script> -->
 
 </body>
 </html>
