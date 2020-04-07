@@ -1,0 +1,27 @@
+{
+  "name": "brittmoni.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "axe-test.js",
+  "scripts": {
+    "build": "grunt",
+    "test": "grunt jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brittmoni/brittmoni.github.io.git"
+  },
+  "author": "Brittany Franklin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brittmoni/brittmoni.github.io/issues"
+  },
+  "homepage": "https://github.com/brittmoni/brittmoni.github.io#readme",
+  "devDependencies": {
+    "axe-core": "^3.5.3"
+  },
+  "dependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-jasmine": "^2.1.0"
+  }
+}
